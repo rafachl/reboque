@@ -41,7 +41,12 @@ class _MyStatefulWidgetState extends State<MyStatefulWidget> {
                   }
                 },
               ),
-              new SettingsWidget(),
+              new SettingsWidget(valores: [
+                "Reboque Motosj",
+                "Reboque Cavalo",
+                "Reboque Comida",
+                "Reboque Carretinha"
+              ],),
               ButtonTheme(
                   minWidth: 200,
                   padding: const EdgeInsets.symmetric(horizontal: 10),
